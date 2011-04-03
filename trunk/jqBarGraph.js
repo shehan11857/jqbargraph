@@ -1,6 +1,6 @@
 /**
  * jqBarGraph - jQuery plugin
- * @version: 1.0 (2009/11/12)
+ * @version: 1.1 (2011/04/03)
  * @requires jQuery v1.2.2 or later 
  * @author Ivan Lazarevic
  * Examples and documentation at: http://www.workshop.rs/jqbargraph/
@@ -197,7 +197,7 @@
  			
  			// animated apearing
  			if(arr.animate){
- 				$('#graphFieldBar'+unique).css({ 'display' : 'none', 'height' : 0 });
+ 				$('#graphFieldBar'+unique).css({ 'height' : 0 });
  				$('#graphFieldBar'+unique).animate({'height': fieldHeight},arr.speed*1000);
  			} else {
  				$('#graphFieldBar'+unique).css({'height': fieldHeight});
